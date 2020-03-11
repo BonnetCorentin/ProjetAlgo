@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 
+
 public class ManipulationFichier {
 	private final String nomFichier;
 	private FileReader fichier;
@@ -42,7 +43,8 @@ public class ManipulationFichier {
 		try {	
 			String line;
 		    while ((line = bufferLecture.readLine()) != null) {
-		    	String[] wordsLine = line.split("[\\.\\s]");
+		    	String[] wordsLine = line.split("[.\\s,\\\"\\-]");
+		    	
 		    	for (int i=0;i<wordsLine.length;i++)
 		    		arrayOfWord.add(wordsLine[i]);
 		    	

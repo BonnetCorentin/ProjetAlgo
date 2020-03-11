@@ -1,3 +1,2 @@
-Voici un test pour savoir si le code marche correctement. Je suis convaincu que ce test marchera.
-
-Corentin Bonnet.
+Voici un test qui permet de savoir le nombre d'occurence d'un mot dans un text, de plus il fait le lien entre le lien avec les autres mots. Ceci est signé un élève de Polytech, une école d'ingénieur.
+Ceci va sûrement marcher, enfin je crois.
